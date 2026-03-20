@@ -1,0 +1,7 @@
+# Calculating area of rectangle
+L = float(input("enter length"))
+B = float(input("enter breadth"))
+Area = L*B
+print("The area of the rectangle is : " , Area)
+print(type(Area))
+          
