@@ -1,0 +1,17 @@
+my_set = {1, 2, 3, "hello", 3.14, 1, 2, "false"}
+print(type(my_set))
+#my_set[0] = "start"
+my_set.add("world")
+print(my_set)
+my_second_set = {3, 4, 5}
+union_set = my_set.union(my_second_set)
+print(union_set)
+intersection_set = my_set.intersection(my_second_set)
+print(intersection_set)
+difference_set = my_set.difference(my_second_set)
+print(difference_set)
+difference_set = my_second_set.difference(my_set)
+print(difference_set)
+my_set.clear()
+print(my_set)
+
