@@ -14,4 +14,3 @@ difference_set = my_second_set.difference(my_set)
 print(difference_set)
 my_set.clear()
 print(my_set)
-

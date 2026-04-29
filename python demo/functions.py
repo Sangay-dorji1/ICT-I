@@ -1,0 +1,31 @@
+def sum():
+    a = 5 
+    b = 10
+    print("the sum is:", a+b)
+
+def product():
+    a = 5
+    b = 10
+    print("the product is:", a*b)
+
+sum()
+product()
+
+def sum_with_parameters(x, y):
+    print("the sum of", x, "and", y, "is:", x+y)
+sum_with_parameters(3, 7)
+
+def product_with_parameters(x, y):
+    print("the product of", x, "and", y, "is:", x*y)
+product_with_parameters(5, 8)
+
+def sum_with_return(x, y):
+    return x + y
+print("the sum of 4 and 6 is:", sum_with_return(4, 6))
+
+def product_with_return(x, y):
+    return x * y
+print("the product of 4 and 6 is:", product_with_return(4, 6))
+
+print(sum_with_return(4, 6))
+

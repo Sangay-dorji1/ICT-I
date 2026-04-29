@@ -1,0 +1,37 @@
+name = str(input("enter your name"))
+mark1 = float(input("enter your first mark"))
+mark2 = float(input("enter your second mark"))
+mark3 = float(input("enter your third mark"))
+mark4 = float(input("enter your fourth mark"))
+attendance = float(input("enter yoour attendance"))
+print("student name:", name)
+print("attendance:%.2f" % attendance, "%")
+average = (mark1+mark2+mark3+mark4)/4
+print("average:%.2f" % average, "%")
+if average>=50 and attendance>=90:
+    print("congratualtions, you made it")
+
+else:
+    print("better luck next time")
+
+if average>=90:
+    print("Grade:A")
+
+elif average>=80:
+    print("Grade:B")
+elif average>=70:
+    print("Grade:C")
+elif average>=70:
+    print("Grade:D")
+elif average>=60:
+    print("Grade:E")
+elif average>=50:
+    print("Grade:F")
+
+else:
+    print("need to burn your midnight candle")
+
+if average>=90 or average>=80 and attendance>=90:
+    print("you will be rewarded")
+else:
+    print("no reward for you; try next time")

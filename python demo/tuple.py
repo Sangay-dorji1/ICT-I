@@ -14,4 +14,3 @@ n = concatenated_tuple[2:7:4]
 print(n[::-1])
 print(concatenated_tuple[6:1:-4])
 print(concatenated_tuple[::-4])
-
